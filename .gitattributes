@@ -1,0 +1,12 @@
+# 统一换行符，避免 Windows 上每次提交都显示“整个文件都改了”
+* text=auto
+
+# PowerShell 脚本在 Windows 上保持 CRLF
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+
+# 其余源码用 LF
+*.ino text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.md text eol=lf

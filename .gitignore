@@ -1,0 +1,15 @@
+# 采集到的数据（按采样率会长得很快，不进版本库）
+pc-server/data*.csv
+
+# 本机 WiFi 配置文件，只对生成它的那台电脑有意义
+pc-server/BMP388.xml
+
+# 原始示例杂项
+新建文本文档.txt
+
+# 临时文件
+*.log
+*.tmp
+Thumbs.db
+desktop.ini
+node_modules/
